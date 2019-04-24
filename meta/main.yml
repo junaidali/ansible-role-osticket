@@ -1,3 +1,6 @@
+---
+dependencies: []
+
 galaxy_info:
   author: Syed Junaid Ali
   description: osTicket for RHEL (and derivatives) and Debian (and derivatives)
@@ -20,9 +23,9 @@ galaxy_info:
         - trusty
         - xenial
         - bionic
-  galaxy_tags: []
+  galaxy_tags:
     - development
-    - ITSM
-    - Apache
+    - itsm
+    - apache
     - php
     - mysql
