@@ -1,6 +1,8 @@
 Role Name
 =========
 
+[![Build Status](https://travis-ci.org/junaidali/ansible-role-osticket.svg?branch=master)](https://travis-ci.org/junaidali/ansible-role-osticket)
+
 Installs [osTicket](https://osticket.com/) Support Ticketing System
 
 Requirements
