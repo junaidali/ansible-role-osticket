@@ -1,0 +1,28 @@
+galaxy_info:
+  author: Syed Junaid Ali
+  description: osTicket for RHEL (and derivatives) and Debian (and derivatives)
+  company: Slalom, Chicago
+  license: license (BSD, MIT)
+  min_ansible_version: 2.4
+  platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+    - name: Fedora
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - bionic
+  galaxy_tags: []
+    - development
+    - ITSM
+    - Apache
+    - php
+    - mysql
