@@ -11,6 +11,8 @@ env:
 install:
   # Install test dependencies.
   - pip install molecule docker
+  # Add ansible.cfg to pick up roles path.
+  - "printf '[defaults]\nroles_path = ../' > ansible.cfg"
 
 before_script:
   # Use actual Ansible Galaxy role name for the project directory.
