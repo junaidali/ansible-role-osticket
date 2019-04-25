@@ -5,13 +5,16 @@ driver:
   name: vagrant
   provider:
     name: parallels
+    options:
+      memory: 1024
+      cpus: 2
 lint:
   name: yamllint
 platforms:
-  - name: instance
+  - name: ubuntu18
     box: generic/ubuntu1804
-    memory: 1024
-    cpus: 2
+  - name: centos7
+    box: generic/centos7
 provisioner:
   name: ansible
   lint:
