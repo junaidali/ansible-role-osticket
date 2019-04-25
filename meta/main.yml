@@ -1,6 +1,4 @@
 ---
-dependencies: []
-
 galaxy_info:
   author: Syed Junaid Ali
   description: osTicket for RHEL (and derivatives) and Debian (and derivatives)
@@ -12,9 +10,6 @@ galaxy_info:
       versions:
         - 6
         - 7
-    - name: Fedora
-      versions:
-        - all
     - name: Debian
       versions:
         - all
@@ -29,3 +24,4 @@ galaxy_info:
     - apache
     - php
     - mysql
+dependencies: []

@@ -9,4 +9,3 @@ rules:
     level: error
   line-length: disable
   truthy: disable
-  indentation: disable

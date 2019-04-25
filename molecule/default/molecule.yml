@@ -2,12 +2,16 @@
 dependency:
   name: galaxy
 driver:
-  name: docker
+  name: vagrant
+  provider:
+    name: parallels
 lint:
   name: yamllint
 platforms:
   - name: instance
-    image: centos:7
+    box: generic/ubuntu1804
+    memory: 1024
+    cpus: 2
 provisioner:
   name: ansible
   lint:
